@@ -1,4 +1,111 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400;1,700;1,800&display=swap');
+#footer {
+  display: flex;
+  flex-direction: row;
+  max-width: 100vw;
+  color: white;
+  background-color: rgb(69, 84, 245);
+}
+
+.footer-column {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+  border-right: 1px solid grey;
+}
+
+.footer-col-1{
+    flex: 4;
+}
+
+.footer-col-2{
+    flex: 2;
+}
+
+.footer-col-3{
+    flex: 2;
+}
+
+.footer-col-4{
+    flex: 2;
+}
+
+#footer:nth-child(4) {
+  border-right: none;
+}
+
+.footer-icon {
+  font-size: 1.3rem;
+}
+input {
+  border-radius: 10px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  margin: 10px auto 0 auto !important;
+}
+input[type="submit"] {
+  border-radius: 10px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  margin: 10px auto 0 auto !important;
+  background-color: white;
+  color: rgb(69, 84, 245);
+  transition: all ease 0.3s;
+}
+
+input[type="submit"]:hover {
+  transform: scale(1.1);
+}
+
+.socials {
+  background-color: white;
+  width: max-content;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.social-icon {
+  padding: 10px;
+  font-size: 1.49rem;
+}
+
+.social-icon:hover {
+  opacity: 0.8;
+}
+
+.instagram-icon {
+  color: indianred;
+}
+
+.whatsapp-icon {
+  color: green;
+}
+
+.services-item{
+    display: flex;
+    flex-direction: row;
+}
+.services-item > .footer-icon{
+    margin-right: 10px;
+}
+@media only screen and (max-width: 1030px) {
+  #footer {
+    flex-direction: column;
+  }
+
+  input {
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    margin: 10px auto 0 auto !important;
+  }
+}
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400;1,700;1,800&display=swap');
 
 * {
     box-sizing: border-box;
@@ -295,4 +402,4 @@ footer#site-footer #footer-social-buttons img:hover {
     footer#site-footer section#footer-bottom-section #footer-social-buttons {
         margin-top: 1.32rem;
     }
-}
+} */

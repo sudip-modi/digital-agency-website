@@ -6,14 +6,14 @@ import digitization from '../assets/images/digitization.jpg';
 
 const Home = () => {
   return (
-    <div>
+    <>
         <img 
         src={digitization}
         className="main-background"
         alt="background"
         />
         <Footer/>
-    </div>
+    </>
   )
 }
 
