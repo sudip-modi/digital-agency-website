@@ -1,0 +1,10 @@
+#about{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-bottom: 1px solid seagreen;
+    background-color: tomato;
+    color: white;
+    line-height: 30px;
+    padding: 20px;
+}

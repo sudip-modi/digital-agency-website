@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    --primary-blue: rgb(69, 84, 245);
 }
 body {
   margin: 0;
@@ -29,6 +30,7 @@ body {
 .mr-10{
     margin-right: 10px;
 }
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

@@ -11,6 +11,8 @@ import Marketing from "./pages/Marketing";
 import TopNav from "./components/TopNav/TopNav";
 import Projects from "./pages/Projects";
 import NoPage from "./pages/NoPage";
+import Workprocess from "./pages/Workprocess";
+import Ourwork from "./pages/Ourwork";
 
 function App() {
   return (
@@ -25,6 +27,8 @@ function App() {
           <Route path="marketing" element={<Marketing />} />
           <Route path="ourproducts" element={<Ourproducts />} />
           <Route path="projects" element={<Projects />} />
+          <Route path="workprocess" element={<Workprocess />} />
+          <Route path="ourwork" element={<Ourwork />} />
           <Route path="*" element={<NoPage />} />
         </Route>
     </Routes>

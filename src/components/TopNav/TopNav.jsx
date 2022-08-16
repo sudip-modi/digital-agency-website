@@ -48,6 +48,9 @@ const TopNav = () => {
             <Link className="nav-link" to="/ourproducts">
               Our Products
             </Link>
+            <Link className="nav-link" to="/ourwork">
+              Our Work
+            </Link>
             <Link className="nav-link" to="/about">
               About
             </Link>
