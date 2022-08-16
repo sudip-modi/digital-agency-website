@@ -33,6 +33,8 @@
 
 .about-website-container >a{
     color: white;
+    text-decoration: none;
+    background-color: yellow;
 }
 
 .website-img-container > img{
