@@ -12,7 +12,8 @@ import {
   FaCloudUploadAlt,
   FaBullhorn,
 } from "react-icons/fa";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
+
 const Footer = () => {
   return (
     <div id="footer">
@@ -35,16 +36,7 @@ Cms development and customization (Shopify, Wordpress etc.)
 We use cutting edge tech and major frameworks like react, angular, django etc. We develop native applications for android  and ios. We also provide hybrid cross platform application development using react native and flutter.
 
 We are an ISO certified company and a leading provider in the offshore development services industry.
-
-Our team has a cumulative 40 years of experience in IT. We have successfully delivered over 100 projects in a large array of industry sectors ranging from real estate, finance, ecommerce, health, music, travel and hospitality etc. We maximise client satisfaction by doing an in depth analysis of our customer’s needs.
-
-We have a strong team of a dozen web developers, android developers, backend engineers, devops specialists, ios programmers, graphic designers, content writers and webmasters that take care of development and maintenance of projects.
-
-We combine creativity and passion to deliver a smooth and efficient product development experience.
-
-Quality assurance is a key part of our job. Hence we use battle tested techniques and processes to ensure that all work is governed in compliance with industry standards and best practices.
-
-We welcome you to the world of softgenics.
+Read More <Link to="/about" className="read-more">...</Link>
           </p>
         </div>
 

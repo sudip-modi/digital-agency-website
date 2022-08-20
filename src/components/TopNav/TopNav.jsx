@@ -8,7 +8,7 @@ import { Link, Outlet } from "react-router-dom";
 const TopNav = () => {
   return (
     <>
-    <Navbar bg="light" expand="lg">
+    <Navbar bg="light" expand="lg " fixed="top">
       <Container>
         <Navbar.Brand>
             <Link to="/">
@@ -16,7 +16,7 @@ const TopNav = () => {
             src={logo}
             width="40"
             height="40"
-            className="d-inline-block align-top"
+            className="d-inline-block align-top softgenics-logo"
             alt="Brand logo"
           />
             </Link>
@@ -29,6 +29,11 @@ const TopNav = () => {
               Home
             </Link>
             <NavDropdown title="Services" id="basic-nav-dropdown">
+            <NavDropdown.Item>
+                <Link className="nav-link" to="services">
+                  Services
+                </Link>
+              </NavDropdown.Item>  
               <NavDropdown.Item>
                 <Link className="nav-link" to="design">
                   Design
@@ -39,6 +44,7 @@ const TopNav = () => {
                   Development
                 </Link>
               </NavDropdown.Item>
+              
               <NavDropdown.Item>
                 <Link className="nav-link" to="marketing">
                   Marketing
@@ -51,6 +57,10 @@ const TopNav = () => {
             <Link className="nav-link" to="/ourwork">
               Our Work
             </Link>
+            <Link className="nav-link" to="/packages">
+              Packages
+            </Link>
+            
             <Link className="nav-link" to="/about">
               About
             </Link>

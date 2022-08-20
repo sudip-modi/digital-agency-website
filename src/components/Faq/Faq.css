@@ -1,0 +1,35 @@
+.faq-accordion-container{
+    /* margin-top: 100px; */
+    border-radius: 10px;
+    margin: 100px;
+    margin-top: 150px;
+    border: 5px solid rgba(136, 134, 134, 0.703);
+}
+
+.MuiSvgIcon-root{
+    color:white;
+}
+
+.MuiAccordion-root{
+    border-radius: 10px !important;
+}
+
+.MuiAccordionSummary-root{
+    background-color: var(--primary-blue) !important;
+    color: white !important;
+  
+}
+
+.MuiAccordion-root.Mui-expanded{
+    margin: 0 !important;
+}
+
+.first-accordion-summary{
+    border-top-left-radius: 5px !important;
+    border-top-right-radius: 5px !important;
+}
+
+.last-accordion-detail,.last-accordion-summary{
+    border-bottom-left-radius: 5px !important;
+    border-bottom-right-radius: 5px !important;
+}

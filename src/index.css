@@ -4,6 +4,8 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
     --primary-blue: rgb(69, 84, 245);
+    --gradient1: linear-gradient(to right, #0c3df4 10%, #02b5ff 45%, #02b5ff, #0c3df4);
+    --shadow1:rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 body {
   margin: 0;
@@ -27,8 +29,60 @@ body {
     flex-direction: column;
 }
 
+.jc-center{
+    justify-content: center;
+}
+
+.jc-sb{
+    justify-content: space-between;
+}
+
+.jc-se{
+    justify-content: space-evenly;
+}
+
+.jc-sa{
+    justify-content: space-around;
+}
+
+.m-5{
+    margin: 5px;
+}
+
+.mt-5{
+    margin-top: 5px;;
+}
+
+.mb-5{
+    margin-bottom: 5px;
+}
+
+.ml-5{
+    margin-left: 5px;
+}
+
+.mr-5{
+margin-right: 5px;
+}
+
+.m-10{
+    margin: 10px;
+}
+
+.mt-10{
+    margin-top: 10px;
+}
+
+.mb-10{
+    margin-bottom: 10px;
+}
+
+.ml-10{
+    margin-left: 10px;
+}
+
 .mr-10{
-    margin-right: 10px;
+margin-right: 10px;
 }
 
 code {

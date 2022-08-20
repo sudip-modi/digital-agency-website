@@ -1,0 +1,54 @@
+.packages-container{
+    display: flex;
+    flex-direction: row;
+    background-image: linear-gradient(#09c6f9, #045de9);
+    color: var(--primary-blue);
+}
+
+.package-card{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 10px;
+    margin: 10px;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.pay-now{
+    color: white;
+    background-color: var(--primary-blue);
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+
+/* .package-img-container{
+    object-fit: contain;
+} */
+
+.package-img-container{
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.package-image{
+    /* object-fit: contain; */
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.package-text-container{
+    padding: 10px;
+}
+
+@media only screen and (max-width: 1000px){
+    .packages-container{
+        flex-direction: column;
+    }
+}

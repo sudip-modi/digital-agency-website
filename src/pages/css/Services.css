@@ -1,0 +1,60 @@
+.services-container{
+    text-align: left;
+    margin: 10px;
+    padding: 10px;
+    /* background-image: url("../../assets//images/halftoneblue.jpg"); */
+    border-radius: 10px;
+}
+
+.services-container > h5{
+    padding-left: 20px;
+}
+
+.services-container > p{
+    padding-left: 20px;
+}
+
+.services-card-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.services-card-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.services-card{
+    border: 1px solid #9993;
+    border-radius: 10px;
+    background-color: white;
+    padding: 20px;
+    margin: 5px;
+}
+
+.services-card:hover{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    cursor:pointer;
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+}
+
+.services-card-img{
+    width: 50px;
+    height: 50px;
+}
+
+.card-row-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card-row-bottom > .tags > button{
+    border:none;
+    font-size: 11px;
+    padding: 3px 7px;
+    border-radius: 4px;
+    background-color: #eef4f8;
+    margin-top: 10px;
+    margin-right: 5px;
+}

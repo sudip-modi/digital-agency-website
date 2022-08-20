@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&family=Playfair+Display&family=Poppins:wght@200&family=Signika:wght@300&display=swap');
+.navbar {
+   background-color: rgb(0, 0, 0);
+    padding-right: 3rem;
+}
+
+.navbar .navbar-toggler {
+    border:  none !important;
+    position: absolute;
+    font-size: 25px;
+}
+.navbar .navbar-toggler:focus{
+    box-shadow: none;
+}
+
+.navbar-nav .nav-link {
+    font-weight: 600;
+    font-size: 17px;
+    font-family: Signika,serif;
+    color: rgb(239, 245, 239) !important;
+    margin-right: 1rem;
+    outline:  #96e072ff;
+    text-align: left;
+    
+}
+.navbar-nav .nav-link:hover{
+    color:  #96e072ff !important;
+}
+.navbar-brand img {
+    height: 50px !important;
+    width: 250px;
+    
+   
+}
+
+.navbar .fa-stack[data-count]:after {
+    position: absolute;
+    right: 40%;
+    top: 0%;
+    content: attr(data-count);
+    font-size: 50%;
+    padding: 0.6em;
+    border-radius: 999px;
+    line-height: 0.55em;
+    color: white;
+    color: #f6f0f0;
+  
+    min-width: 2em;
+    font-weight: bold;
+    background: rgb(234, 20, 20);
+   
+    
+  }
+  .navbar .fa-shopping-cart{
+    transform: scale(1.8);
+    width: 45px;
+    color:  #96e072ff;
+   
+  }
+
+
+  .navbar-nav .dropdown-menu {
+    border: none !important;
+    border-radius: 0 ;
+    margin-top: 1rem;
+    width: 250px;
+    transition: 0.2s;
+    
+
+  }
+
+  .navbar-nav .dropdown-menu .dropdown-item {
+    font-family: Montserrat;
+    line-height: 35px;
+    font-size: 16px;
+    background: none !important;
+
+  }
+  .navbar-nav .dropdown-menu .dropdown-item:hover{
+    color: green;
+    transform : translateX(10px);
+    transition: all .5s;
+  }
+@media(max-width: 992px) {
+    .navbar, .navbar-bg {
+        background-color: rgb(10, 10, 10) !important;
+        padding: auto;
+        padding-right: 1rem;
+        
+    }
+    .navbar-brand {
+        margin: 0 !important;
+    }
+    .navbar-brand img {
+        height: 50px !important;
+        margin-left: 5rem;
+        width: 200px;
+    }
+    .navbar .navbar-collapse {
+        position: fixed;
+        top: 75px;
+        left: 0;
+        opacity: 0.8;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+        width: 100%;
+        height: 100%;
+        z-index: 110;
+        background-color: rgb(0, 0, 0);
+        box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    }
+   
+    .navbar-nav .dropdown-menu {
+        width: auto;
+    }
+    .navbar-nav .dropdown-menu .dropdown-item{
+        background-color: black !important;
+        color: #fff;
+    }
+    .navbar-nav .dropdown-menu{
+        background-color: black !important;
+    }
+    .navbar .dropdown-toggle::after {     
+        transform: rotate(-90deg);   
+        margin-top: 0.77em;
+    }
+}
+@media(max-width:390px){
+    .navbar-brand img{
+        width: 180px;
+        height: 20px;
+       
+        
+    }
+}
+@media(max-width:340px){
+    .navbar-brand img{
+       width: 150px;
+        height: 10px;
+        
+    }
+}
+    @media(max-width:312px){
+        .navbar-brand img {
+            width: 90px !important;
+        }
+    }
+
+/* LOGIN SIGNUP MODAL MODAL CSS */
+.auth-modal {
+    padding: auto;
+}
+.auth-modal .modal-header {
+    border-bottom: none !important;
+}
+.auth-modal .modal-header .btn-close {
+    background-color: red !important;
+    border-radius: 50px;
+    color: #fff !important;
+}
+.auth-modal .modal-header .btn-close:hover{
+    translate: translateX(20px);
+}
+.auth-modal .toggler{
+    justify-content: center;
+}
+.auth-modal .toggler .card {
+    width: 10rem;
+    height: 3rem;
+    justify-content: center;
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    border-radius: 0;
+}
+.auth-modal .toggler .active {
+    background-color: rgb(29, 148, 2);
+    color: #fff;
+}

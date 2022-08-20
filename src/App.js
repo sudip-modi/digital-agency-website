@@ -13,6 +13,11 @@ import Projects from "./pages/Projects";
 import NoPage from "./pages/NoPage";
 import Workprocess from "./pages/Workprocess";
 import Ourwork from "./pages/Ourwork";
+import Packages from "./pages/Packages";
+import Services from "./pages/Services";
+import Faq from "./components/Faq/Faq.jsx";
+import Testimonials from "./pages/Testimonials";
+import Team from "./pages/Team";
 
 function App() {
   return (
@@ -29,6 +34,11 @@ function App() {
           <Route path="projects" element={<Projects />} />
           <Route path="workprocess" element={<Workprocess />} />
           <Route path="ourwork" element={<Ourwork />} />
+          <Route path="packages" element={<Packages />} />
+          <Route path="services" element={<Services />} />
+          <Route path="faq" element={<Faq />} />
+          <Route path="testimonials" element={<Testimonials />} />
+          <Route path="team" element={<Team />} />
           <Route path="*" element={<NoPage />} />
         </Route>
     </Routes>

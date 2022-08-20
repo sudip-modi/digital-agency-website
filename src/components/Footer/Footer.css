@@ -1,10 +1,20 @@
 #footer {
   display: flex;
+  opacity:1;
   flex-direction: row;
   max-width: 100vw;
   color: white;
   background-color: rgb(69, 84, 245);
+  /* z-index: -100000; */
+  position: relative;
+  bottom:0;
+  right:0;
+  left:0;
 }
+
+/* #footer:hover{
+    background: linear-gradient(to right, #0c3df4 10%, #02b5ff 45%, #02b5ff, #0c3df4);
+} */
 
 .footer-column {
   display: flex;
@@ -104,6 +114,12 @@ input[type="submit"]:hover {
     outline: none;
     margin: 10px auto 0 auto !important;
   }
+}
+
+.read-more{
+    color: white;
+    font-size: 2rem;
+    text-decoration: none;
 }
 /* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400;1,700;1,800&display=swap');
 
