@@ -65,7 +65,6 @@ const Faq = () => {
             Our websites are technically-sound, responsive, and have a great user experience. They are SEO friendly and will include SEO tools implementation. However, for advanced SEO services such as keyword research, content optimization, and others - please sign up for our SEO services.
             </Typography>
         </AccordionDetails>
-
       </Accordion>
     </div>
   );

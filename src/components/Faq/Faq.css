@@ -17,7 +17,6 @@
 .MuiAccordionSummary-root{
     background-color: var(--primary-blue) !important;
     color: white !important;
-  
 }
 
 .MuiAccordion-root.Mui-expanded{
